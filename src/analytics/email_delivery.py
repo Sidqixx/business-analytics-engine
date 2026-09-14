@@ -16,21 +16,12 @@ from dotenv import load_dotenv
 # CONFIG
 # ============================================================
 
-ENV_FILE = (
-    Path(__file__).resolve().parents[2]
-    / ".env"
-)
+ENV_FILE = Path(__file__).resolve().parents[2] / ".env"
 
 load_dotenv(ENV_FILE)
 
-ENABLE_EMAIL = (
-    os.getenv("ENABLE_EMAIL", "true").lower()
-    == "true"
-)
-
 SMTP_HOST = os.getenv("SMTP_HOST", "smtp.gmail.com")
 SMTP_PORT = int(os.getenv("SMTP_PORT", "587"))
-
 SMTP_USERNAME = os.getenv("SMTP_USERNAME")
 SMTP_PASSWORD = os.getenv("SMTP_PASSWORD")
 
