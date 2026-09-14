@@ -1,0 +1,8 @@
+.env
+__pycache__/
+*.pyc
+
+data/generated/*
+!data/generated/.gitkeep
+
+data/uploads/*
