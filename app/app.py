@@ -10,6 +10,10 @@ import pandas as pd
 import streamlit as st
 from dotenv import load_dotenv
 
+st.write("SMTP_USERNAME:", os.getenv("SMTP_USERNAME"))
+st.write("SMTP_HOST:", os.getenv("SMTP_HOST"))
+st.write("ENABLE_EMAIL:", os.getenv("ENABLE_EMAIL"))
+
 
 # ============================================================
 # PROJECT PATHS
