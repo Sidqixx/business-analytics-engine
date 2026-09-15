@@ -1,4 +1,5 @@
 # Business Analytics Automation Engine
+🔗 **[Try Demo on streamlit by using sample Data](https://business-analytics-engine-jq4t6h7guvvngbs6ednxzy.streamlit.app/)**
 
 A reusable analytics workflow that transforms transactional data into business performance insights, monitoring signals, recommendations, and decision-ready reports.
 
